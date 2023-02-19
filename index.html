@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>contest 2</title>
+</head>
+<body style=" padding-left: 3%;padding-right: 3%;">
+
+    <h1 style="color: white; ">Library Management system </h1>
+    <form>
+        <div class="container">
+      <label for="book_name" style="color: white;">Book Name</label>
+      <input type="text" id="book_name" style="background-color: #1E1E1E; color: white;" name="book_name" >
+      <br><br>
+      <label for="issued_to" style="color: white;">Issued To</label>
+      <input type="text" id="issued_to" name="issued_to" style="color: white; background-color:  #1E1E1E;">
+      <br><br>
+      <button type="submit" style="padding-left: 3%; padding-right: 3%; padding-top: 2%; padding-bottom: 2%;">Issue Book</button>
+    </div>
+    </form>
+    <br>
+    <table id="issued-books-table" style="color: white;" >
+      <tr>
+        <th>ID</th>
+        <th>Book Name</th>
+        <th>Issued To</th>
+        <th>Issued Time</th>
+        <th>Status</th>
+      </tr>
+<script src="lib.js"></script>
+</body>
+</html>

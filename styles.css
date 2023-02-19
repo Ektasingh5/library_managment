@@ -1,0 +1,44 @@
+*{
+    background-color: #1E1E1E;
+}
+table, th, td {
+    border: 1px solid  #FFFFFF;
+    border-collapse: collapse;
+  }
+  table{
+    width: 100%;
+  }
+  th, td {
+    padding: 5px;
+  }
+
+  .red {
+    color: red;
+  }
+  .green {
+    color: green;
+  }
+  button{
+    width: 27%;
+    height: 35px;
+    background-color: white;
+    margin-left: 10px;
+  }
+  #book_name{
+    width: 20%;
+    height: 30px;
+    margin-left: 10px;
+    border: solid white ;
+    border-width: 0.2px;
+}
+  #issued_to{
+    width: 20%;
+    height: 29px;
+    margin-left: 25px;
+    border: solid white ;
+    border-width: 0.2px;
+
+  }
+  .container{
+    padding: 5px 5px;
+  }
